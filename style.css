@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #E4E4E4;
+}
+.navbar-brand{
+    margin-right: 40rem;
+    color: aliceblue !important;
+    font-size: 38px;
+    font-family: 'Sedgwick Ave Display','cursive';
+}
+.navbar{
+    background-color: rgb(186, 66, 66);
+}
+#page{
+    margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+    font-style: italic;
+}
+/* carosel image */
+/*--- introtext ----*/
+#About Us{
+    height: 220px;
+}
+.container{
+    overflow: hidden;
+}
+/* desktop card */
+.txtHead{
+     /* margin-left: 30px !important; */
+    background: #fff;
+    padding: 20px 10px;
+}
+.txtHead .fa{
+    font-size: 58px;
+    color: #5E5E5E;
+}
+.tileBox p{
+background-color: #f0f0f0;
+font-size: 15px;
+color: #777777;
+padding: 20px;
+margin: 0px;
+}
+/*parlex*/
+.bg-parlex {
+/* padding-top: 20px; */
+background-image: url('image/banner-bg1.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+.parlex-back {
+padding: 60px 0px;
+background-color: rgba(0, 0, 0, 0.37);
+color: #FDFDFD !important;
+}
+#skill{
+    background-color: white;
+}
+/* footer */
+.icon{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    word-spacing: 10px;
+}
+.fa-brands{
+    font-size: 4rem;
+    padding-top: 40px;
+}
